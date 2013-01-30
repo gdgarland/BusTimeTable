@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:background="@color/background">
+<TextView 
+    android:id="@+id/lname" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/searchtext" 
+    android:textSize="13sp" 
+    android:layout_marginLeft="5dp" 
+    android:layout_marginRight="5dp" 
+    android:textAppearance="?android:attr/textAppearanceLarge" /> 
+<LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+<EditText android:id="@+id/searchText" 
+    android:layout_width="0dip" 
+    android:layout_height="wrap_content" 
+    android:layout_weight="1" 
+    android:singleLine="true" 
+    android:hint="@string/departure"/> 
+<Button 
+    android:id="@+id/searchButton" 
+    android:text="@string/Search" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:onClick="search" /> 
+</LinearLayout>
+<ListView 
+    android:id="@+id/list" 
+    android:layout_width="wrap_content" 
+    android:layout_height="0dip" 
+    android:layout_weight="1"
+    android:divider="#12acb7"
+    android:dividerHeight="1dp" />
+<Button 
+    android:id="@+id/okbutton" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/OK" /> 
+</LinearLayout>       

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">автобуси - разписания</string> 
+  <string name="main_title">Междуградски автобуси - разписания</string> 
+  <string name="continue_label">Разписание</string> 
+  <string name="bus_label">Автогари</string> 
+  <string name="bus">Фирми за международен транспорт</string> 
+  <string name="new_game_label">Фирми</string> 
+  <string name="about_label">За програмата</string> 
+  <string name="exit_label">Изход</string> 
+  <string name="about_title">За програмата</string> 
+  <string name="city">Град</string> 
+  <string name="tel">Телефон</string> 
+  <string name="firm">фирми</string> 
+  <string name="tele">Телефон</string> 
+  <string name="OK">OK</string> 
+  <string name="Search">Search</string>
+  <string name="departure">Departure city:</string>
+  <string name="address_book_label">Below are the list of your contacts</string>
+  <string name="email_client_error">No Email client found</string>
+  <string name="email_subject">Android Email</string>
+  <string name="searchtext">Тръгване от град:</string> 
+  <string name="about_text">Информацията за автобусните разписания в 
+      справочника се актуализира редовно,но поради извършваните от превозвачите 
+      инцидентни и необявявани промени, са възможни несъответствия.
+      С ползването на тази програма Вие се съгласявате, че авторите му не носят 
+      никаква отговорност за вреди или пропуснати ползи,настъпили поради 
+      несъответствие на публикуваното с действителността! 
+      Информацията се предоставя такава каквато е,без НИКАКВА гаранция за 
+      съответствието и с действителността!</string> 
+  </resources>
